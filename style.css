@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand, sans-serif;
+}
+
+header {
+    background-color: white;
+}
+
+
+header h1 {
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.choices {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.choice {
+    background-color: rgba(255, 255, 255, 0.952);
+    width: 20vmin;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0px 10px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.label {
+    background-color: white;
+    display: inline;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.score {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 200px;
+    margin: 0px auto;
+    position: relative;
+    padding: 10px;
+}
+
+span {
+    font-size: 50px;
+}
+
+.spans {
+    text-align: center;
+}
+
+#computer-label{
+    position: absolute;
+    right: -18px;
+    top:30px;
+    background-color: red;
+}
+#player-label{
+    position: absolute;
+    left: -18px;
+    top: 30px;
+    background-color: #00fa00;
+}
+
+.display-result{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 25px;
+}
+
+footer{
+align-self: center;
+padding: 10px;
+font-size: small;
+}
+
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: #00fa00;
+}
+
+.score-red{
+    color: red;
+}
+.score-yellow{
+    color: yellow;
+}
+.score-green{
+    color: #00fa00;
+}

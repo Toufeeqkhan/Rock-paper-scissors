@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ROCK PAPER SCISSORS</title>
+    <link rel="shortcut icon" href="imgs/favIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="index.js"></script>
-git </body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <main>
+        <div class="score">
+            <div id="player-label" class="label">Player</div>
+            <div id="computer-label" class="label">Comp</div>
+            <div class="spans">
+                <span id="player-score">0</span>
+                <span id="seprator">:</span>
+                <span id="comp-score">0</span>
+            </div>
+        </div>
+
+        <div class="result">
+            <p class="display-result">Rock beats scissors. You win!</p>
+        </div>
+
+        <div class="choices">
+            <img src="imgs/rock.png" alt="Rock Image" class="choice" id="r">
+            <img src="imgs/paper.png" alt="Paper Image" class="choice" id="p">
+            <img src="imgs/scissors.png" alt="Scissors Image" class="choice" id="s">
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Make your move!</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
 </html>
